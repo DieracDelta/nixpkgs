@@ -196,6 +196,7 @@
 , "lcov-result-merger"
 , "leetcode-cli"
 , "vsc-leetcode-cli"
+, "lean-language-server"
 , "lerna"
 , "less"
 , "less-plugin-clean-css"
