@@ -126,6 +126,10 @@ let
       orga = "FallenAngel97";
       repo = "tree-sitter-rego";
     };
+    "tree-sitter-riscv-asm" = {
+      orga = "DieracDelta";
+      repo = "tree-sitter-riscv-asm";
+    };
     "tree-sitter-rst" = {
       orga = "stsewd";
       repo = "tree-sitter-rst";
