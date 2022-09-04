@@ -1,9 +1,9 @@
 {
   "url": "https://github.com/DieracDelta/tree-sitter-riscv-asm",
-  "rev": "2d0cc2c366dfbb540bd5fa92d38b02bdb1b80c79",
-  "date": "2022-09-04T12:28:47-04:00",
-  "path": "/nix/store/5bagfw3r1b12g6ijll9c5qjcli3qh8aw-tree-sitter-riscv-asm",
-  "sha256": "1nx775qyznzs2h20iq5w6qbwllqxkrx7d9495wmhhzjiw3r64sq5",
+  "rev": "eea3bc5ff33df3468dc984f04ea0fdeb049033a7",
+  "date": "2022-09-04T13:28:36-04:00",
+  "path": "/nix/store/vd7qd5cp1d193wlf9s4w0y52a66ic5hc-tree-sitter-riscv-asm",
+  "sha256": "1971is54i9ddsyh79r85wal8chlwfq7j6ilh782rbyp1s53pdkai",
   "fetchLFS": false,
   "fetchSubmodules": false,
   "deepClone": false,

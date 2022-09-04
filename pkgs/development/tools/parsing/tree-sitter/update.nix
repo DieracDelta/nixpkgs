@@ -38,7 +38,6 @@ let
     "tree-sitter-css"
     "tree-sitter-verilog"
     "tree-sitter-jsdoc"
-    "tree-sitter-ql"
     "tree-sitter-embedded-template"
     "tree-sitter-tsq"
     "tree-sitter-toml"
@@ -47,6 +46,8 @@ let
 
   # repos of the tree-sitter github orga we want to ignore (not grammars)
   ignoredTreeSitterOrgRepos = [
+    "tree-sitter-ql"
+    "tree-sitter-ql-dbscheme"
     "tree-sitter"
     "tree-sitter-cli"
     # this is the haskell language bindings, tree-sitter-haskell is the grammar
