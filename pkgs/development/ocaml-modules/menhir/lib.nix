@@ -2,7 +2,7 @@
 
 buildDunePackage rec {
   pname = "menhirLib";
-  version = "20230608";
+  version = "20200211";
 
   src = fetchFromGitLab {
     domain = "gitlab.inria.fr";
