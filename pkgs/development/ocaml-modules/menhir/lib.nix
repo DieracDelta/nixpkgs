@@ -9,7 +9,7 @@ buildDunePackage rec {
     owner = "fpottier";
     repo = "menhir";
     rev = version;
-    sha256 = "sha256-dUPoIUVr3gqvE5bniyQh/b37tNfRsZN8X3e99GFkyLY=";
+    sha256 = "sha256-8pdlggUpV3CSjec2/gLvFDGqhELvI8Pnv4e1GYr7MQU=";
   };
 
   meta = with lib; {
