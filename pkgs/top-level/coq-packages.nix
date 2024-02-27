@@ -184,7 +184,7 @@ in rec {
   coq_8_9  = mkCoq "8.9";
   coq_8_10 = mkCoq "8.10";
   coq_8_11 = mkCoq "8.11";
-  coq_8_12 = mkCoq "8.12";
+  coq_8_12 = mkCoq "8.12.0";
   coq_8_13 = mkCoq "8.13";
   coq_8_14 = mkCoq "8.14";
   coq_8_15 = mkCoq "8.15";
