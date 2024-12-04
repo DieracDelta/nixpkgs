@@ -1,12 +1,4 @@
-{
-  lib,
-  fetchFromGitHub,
-  rustPlatform,
-  pkg-config,
-  cairo,
-  glib,
-  poppler,
-}:
+{ lib, fetchFromGitHub, rustPlatform, pkg-config, cairo, glib, poppler, }:
 
 rustPlatform.buildRustPackage {
   pname = "tdf";
@@ -24,17 +16,14 @@ rustPlatform.buildRustPackage {
     lockFile = ./Cargo.lock;
     outputHashes = {
       "ratatui-0.29.0" = "sha256-Aeu8HnP4vhHCzu/gRFl7pLLwXv5FcRrlLsstT/AHDVA=";
-      "ratatui-image-3.0.0" = "sha256-IrWHtUuC7OypRAZFEE/UKrPzXT4u9k4jMeJEydcXZWs=";
+      "ratatui-image-3.0.0" =
+        "sha256-IrWHtUuC7OypRAZFEE/UKrPzXT4u9k4jMeJEydcXZWs=";
       "vb64-0.1.2" = "sha256-VvObgaJhHNah3exVQInFa5mhHjzEg0MaFqQdnCE5Pp8=";
     };
   };
 
   nativeBuildInputs = [ pkg-config ];
-  buildInputs = [
-    cairo
-    glib
-    poppler
-  ];
+  buildInputs = [ cairo glib poppler ];
 
   strictDeps = true;
 
