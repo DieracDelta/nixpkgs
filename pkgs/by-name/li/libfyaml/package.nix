@@ -45,6 +45,11 @@ stdenv.mkDerivation (finalAttrs: {
 
   configureFlags = [ "--disable-network" ];
 
+  postFixup = lib.optionalString stdenv.hostPlatform.isDarwin ''
+    substituteInPlace "$dev/lib/pkgconfig/libfyaml.pc" \
+      --replace-fail " none required" ""
+  '';
+
   doCheck = true;
 
   preCheck = ''
